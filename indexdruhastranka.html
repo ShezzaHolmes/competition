@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			* {
+			box-sizing: border-box;
+			}
+			.header, .footer {
+				background-color: #ffb3b3;
+				color: black;
+				padding: 20px;
+			}
+			.column {
+				float: left;
+				padding: 15px;
+			}
+			.clearfix::after {
+				content: "";
+				clear: both;
+				display: table;
+			}
+			.menu {
+				width: 25%;
+			}
+			.content {
+				width: 75%;
+			}
+			.menu ul {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+			}
+			.menu li {
+				padding: 8px;
+				margin-bottom: 8px;
+				background-color: #660066;
+				color: #ffffff;
+			}
+			.menu li:hover {
+				background-color: #0099cc;
+			}
+		</style>
+	</head>
+	<body>
+
+		<div class="header">
+			<h1>Kontakty</h1>
+		</div>
+
+		<div class="clearfix">
+<div class="column menu">
+	<ul>
+		<li>CoconutTree</li>
+		<li>Gerharda</li>
+		<li>Klokan06</li>
+		<li>MozkomorLP01</li>
+    </ul>
+ </div>
+
+  <div class="column content">
+    <h1>CoconutTree</h1>
+    <p>CoconutTree je naše hlavní blogerka. Narodila se 13. 5. 1995 v Brně. Svoji kariéru jako blogerka začala v 19 letech, kdy si psala různé věci do sešítků.</p>
+	<p>Kontaktujte CoconutTree na adrese kokosik29@gmail.com</p>
+      </div>
+</div>
+
+<div class="column content">
+  <p>Footer Text</p>
+</div>
+
+</body>
+</html>
