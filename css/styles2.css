@@ -1,3 +1,7 @@
-html {
-	backgroung-color: #ccffff;
+body {
+	background-color: #ccffff;
+}
+#prvni-trida {
+	font-style: italic;
+	color: gold;
 }
