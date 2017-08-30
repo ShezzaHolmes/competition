@@ -1,5 +1,5 @@
 body {
-background-color:#bfbfbf;
+background-color:#e6e6e6;
 }
 
 	
@@ -19,7 +19,7 @@ p {
 	color: blue
 }
 h3  {
-	font-size: 20px;
+	font-size: 25px;
 	color: blue;
 }
 .row img{
@@ -30,5 +30,5 @@ h3  {
 }	 
 h5 {
 	font-size: 23px;
-	color: #00004d;
+	color: #404040;
 }
