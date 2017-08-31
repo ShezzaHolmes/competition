@@ -1,77 +1,45 @@
 <!DOCTYPE html>
 <html>
-	<head>
-	<title>Kontakty</title>
-		<style>
-			* {
-			box-sizing: border-box;
-			}
-			.header, .footer {
-				background-color: #ffb3b3;
-				color: black;
-				padding: 20px;
-			}
-			.column {
-				float: left;
-				padding: 15px;
-			}
-			.clearfix::after {
-				content: "";
-				clear: both;
-				display: table;
-			}
-			.menu {
-				width: 25%;
-			}
-			.content {
-				width: 75%;
-			}
-			.menu ul {
-				list-style-type: none;
-				margin: 0;
-				padding: 0;
-			}
-			.menu li {
-				padding: 8px;
-				margin-bottom: 8px;
-				background-color: #660066;
-				color: #ffffff;
-			}
-			.menu li:hover {
-				background-color: #0099cc;
-			}
-		</style>
-	</head>
-	<body>
+<head>
+<link rel="stylesheet" href="css\styles2.css">
+<style>
+table {
+    font-family: verdana, sans-serif;
+    border-collapse: separe;
+    width: 100%;
+	color: blue;
+}
 
-		<div class="header">
-			<h1>Kontakty</h1>
-		</div>
+td, th {
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+	color: blue;
+}
 
-	<div class="clearfix">
-		<div class="column menu">
-			<ul>
-			<li>Adresa</li>
-			<li>Email</li>
-			<li>Facebook</li>
-			<li>Tel. číslo</li>
-			</ul>
-		 </div>
-	
-		 <div class="column content">
-			<h1>Adresa</h1>
-			<p>Trávní 1515</p>
-			<p>Ďábelský kopec</p>
-			<p>538 48</p>
-		 </div>
-			  
-		<div class="column content">
-			<h1>Email</h1>
-			<p>velkanoha.853@gmail.cz</p>
-			 
-		</div>
-	</div>
+tr:nth-child(even) {
+    background-color: #e6e6e6;
+}
+</style>
+</head>
+<body>
 
+<table>
+  <tr>
+    <th><b>Adresa</th>
+    <th><b>Email</th>
+    <th><b>Facebook</th>
+	<th><b>Tel. číslo</th>
+  </tr>
+  <tr>
+    <td>Trávní 1529, Ďáblovo oko, 589 25</td>
+    <td>velka.noha.846@seznam.cz</td>
+    <td>www.facebook.com/travel.pulse</td>
+	<td>+420 358 254 578</td>
+  </tr>
+  
+    
+</table>
 
 </body>
 </html>

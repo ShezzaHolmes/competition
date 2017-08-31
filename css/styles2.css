@@ -29,10 +29,15 @@ h3  {
 	max-width: 300px;
 }	 
 h5 {
-	font-size: 20px;
+	font-size: 22px;
 	color: #000099;
 }
 h4  {
 	font-size: 25px;
 	color: blue;
 }
+th {
+	font-size: 30px;	
+	color: blue;
+}
+
